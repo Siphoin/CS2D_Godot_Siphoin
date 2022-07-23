@@ -11,8 +11,14 @@ config_version=4
 [application]
 
 config/name="CS2D Godot"
-run/main_scene="res://scenes/MainMenu.tscn"
+run/main_scene="res://scenes/main_menu.tscn"
 config/icon="res://icon.png"
+
+[display]
+
+window/size/width=960
+window/size/height=540
+window/size/resizable=false
 
 [physics]
 
